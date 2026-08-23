@@ -94,9 +94,23 @@ const experiences = [
 export default function Home() {
   return (
     <main>
-      <nav className="nav shell"><a className="brand" href="#home">&lt;Vikas /&gt;</a><div className="navlinks"><a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#certifications">Certifications</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a></div><a className="nav-cta" href="#contact">Resume ↗</a></nav>
+      <nav className="nav shell"><a className="brand" href="#home">&lt;Vikas /&gt;</a><div className="navlinks"><a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#certifications">Certifications</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a></div><a
+          className="nav-cta"
+          href="/resume/Vikas_Handage_Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Resume ↗
+        </a></nav>
 
-      <section id="home" className="hero shell"><div className="hero-copy"><p className="eyebrow">Hi, I&apos;m <span>👋</span></p><h1>Building digital <span>solutions</span></h1><h2>Software Developer <b>•</b> AI/ML Enthusiast</h2><p className="lead">Information Technology graduate building practical software, AI/ML and data-driven solutions with a focus on clean engineering and continuous learning.</p><div className="hero-actions"><a className="primary" href="#projects">View Work 🚀</a><a className="secondary" href="#contact">Contact Me</a></div><div className="socials"><a href="https://www.linkedin.com/in/vikas-handage" aria-label="LinkedIn">in</a><a href="https://github.com/Vikas3655v" aria-label="GitHub">●</a><a href="mailto:vikashandage06@gmail.com" aria-label="Email">✉</a></div></div><div className="hero-visual"><div className="portrait-frame"><img src="https://avatars.githubusercontent.com/u/182326026?v=4" alt="Vikas Handage" /></div><div className="performance-card"><span>⚡</span><div>Profile<br/><b>Authentic &amp; growing</b></div></div></div></section>
+      <section id="home" className="hero shell"><div className="hero-copy"><p className="eyebrow">Hi, I&apos;m <span>👋</span></p><h1>Building digital <span>solutions</span></h1><h2>Software Developer <b>•</b> AI/ML Enthusiast</h2><p className="lead">Information Technology graduate building practical software, AI/ML and data-driven solutions with a focus on clean engineering and continuous learning.</p><div className="hero-actions"><a className="primary" href="#projects">View Work 🚀</a><a className="secondary" href="#contact">Contact Me</a><a
+            className="secondary"
+            href="/resume/Vikas_Handage_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Resume ↗
+          </a></div><div className="socials"><a href="https://www.linkedin.com/in/vikas-handage" aria-label="LinkedIn">in</a><a href="https://github.com/Vikas3655v" aria-label="GitHub">●</a><a href="mailto:vikashandage06@gmail.com" aria-label="Email">✉</a></div></div><div className="hero-visual"><div className="portrait-frame"><img src="https://avatars.githubusercontent.com/u/182326026?v=4" alt="Vikas Handage" /></div><div className="performance-card"><span>⚡</span><div>Profile<br/><b>Authentic &amp; growing</b></div></div></div></section>
 
       <section id="about" className="section shell section-heading"><p className="kicker">WHO I AM</p><h2>About Me</h2><div className="underline" /></section><section className="about shell"><div className="about-photo"><img src="https://avatars.githubusercontent.com/u/182326026?v=4" alt="Vikas Handage" /></div><div className="about-copy"><h3>I&apos;m an Information Technology graduate and aspiring Software Developer &amp; AI/ML enthusiast.</h3><p>I enjoy building practical applications that connect software engineering, artificial intelligence, machine learning and data analytics.</p><p>I have a foundation in <strong>Python, Java, C++, JavaScript and SQL</strong>, together with experience across web development, databases, machine learning and computer vision.</p><p>I continuously improve through hands-on projects, technical practice, documentation and problem solving. My goal is to contribute to real products while growing into a strong software engineer.</p></div></section>
 
