@@ -61,8 +61,34 @@ const education = [
 ];
 
 const experiences = [
-  { title: "Artificial Intelligence Intern", organization: "Rinex Technology", date: "07 Mar 2024 — 01 May 2024", description: "Successfully completed an Artificial Intelligence internship at Rinex Technology.", bullets: ["Completed the AI internship program with documented completion evidence.", "Internship Certificate ID: AI24-RNI0-3239.", "Separate AI course certificate records Grade A+ with Certificate ID AI24-RNC0-3239."], proof: "Internship completion certificate" },
-  { title: "AI + Sustainability Virtual Intern", organization: "1M1B (One Million for One Billion)", date: "Dec 2025 — Jan 2026", description: "Completed a virtual internship supported by AICTE and delivered in collaboration with IBM SkillsBuild.", bullets: ["Gained practical exposure to AI and responsible AI use.", "Worked with sustainability concepts aligned with the UN SDGs.", "Learned about Agentic AI and RAG systems for real-life problem solving.", "AICTE Internship ID: INTERNSHIP_176309143169a3e755254."], proof: "1M1B + IBM SkillsBuild completion certificates" },
+  {
+    title: "Artificial Intelligence Intern",
+    organization: "Rinex Technology",
+    date: "07 Mar 2024 — 01 May 2024",
+    description: "Completed an Artificial Intelligence internship focused on practical AI/ML learning and hands-on technical development.",
+    bullets: [
+      "Worked on practical Artificial Intelligence and Machine Learning concepts using Python and relevant AI/ML frameworks.",
+      "Implemented and tested machine learning approaches for data analysis, prediction and model-based problem solving.",
+      "Applied AI/ML techniques to understand data, build solutions and evaluate model performance through hands-on experimentation.",
+      "Strengthened practical knowledge of AI workflows, problem solving, model evaluation and technical documentation.",
+      "Gained hands-on internship experience in applying AI/ML concepts in a structured professional learning environment."
+    ],
+    proof: "Internship Certificate ID: AI24-RNI0-3239 • AI Course Grade A+ certificate: AI24-RNC0-3239"
+  },
+  {
+    title: "AI + Sustainability Virtual Intern",
+    organization: "1M1B (One Million for One Billion)",
+    date: "Dec 2025 — Jan 2026",
+    description: "Completed a virtual internship supported by AICTE and delivered in collaboration with IBM SkillsBuild, focused on AI, sustainability and real-world problem solving.",
+    bullets: [
+      "Gained practical exposure to Artificial Intelligence, responsible AI use and emerging AI applications.",
+      "Explored sustainability concepts and the UN Sustainable Development Goals (SDGs) through an AI-focused learning experience.",
+      "Learned about Agentic AI and Retrieval-Augmented Generation (RAG) systems for approaching real-life problems.",
+      "Applied problem-solving and impact-driven thinking to connect AI concepts with sustainability and real-world use cases.",
+      "Developed professional and technical skills through structured virtual learning, activities and project-oriented internship work."
+    ],
+    proof: "AICTE Internship ID: INTERNSHIP_176309143169a3e755254 • 1M1B + IBM SkillsBuild certificates"
+  },
 ];
 
 export default function Home() {
